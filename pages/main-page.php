@@ -12,6 +12,8 @@ if(!isset($_SESSION["username"])){
     </head>
     <body>
         <div class="container">
+            <div style="position:absolute; right:0; z-index:8; color: white; font-size: 22px; font-family: 'Calibri', sans-serif; margin-right: 12px">Welcome <strong><?php echo $_SESSION["username"]; ?></strong> | 
+            <a href="../BE/logout.php">Logout</a></div>
         <div class="left-div">
             <p class="p-left"><image src="../icons/house2.png" class="ico" id="ico2"><span class="text-pointer"><a href="main-page.php">Main Page</a></span></p>
             <p class="p-left"> <image src="../icons/CV2.png" class="ico" id="ico2"><span class="text-pointer"> <a href="CV.php">Resume</a></span></p>
