@@ -1,0 +1,312 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(200, 200, 180);
+    align-items: center;
+    font-family: 'Calibri', sans-serif;
+}
+
+label{
+    font-size: 19px;
+}
+
+.input-container label{
+    color: beige;
+}
+
+.input2 label{
+    color: beige;
+}
+
+a{
+    text-decoration: none;
+}
+
+.login a{
+    color: beige;
+}
+
+.login a:hover{
+    color:#003da6;
+}
+.next-cont{
+    height: 370px;
+    bottom: 0;
+    background-color: beige;
+    z-index: 3;
+    position: absolute;
+    width: 350px;
+    text-align: left;
+    padding-left: 50px;
+}
+
+.vl {
+    border-left: 2px solid black;
+    height: 300px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 0;
+    z-index:4;
+    background-color: rgb(39, 20, 30);
+    margin-top: 110px;
+}
+
+.next-cont2{
+    height: 380px;
+    bottom: 0;
+    right:0;
+    background-color: beige;
+    z-index: 3;
+    position: absolute;
+    width: 370px;
+    text-align: left;
+}
+
+.headers{
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+.container {
+    height: 450px;
+    width: 800px;
+    background-color: rgb(39, 20, 30);
+    position: relative;
+    color: beige;
+    text-align: center;
+    font-size: 35px;
+    padding-top: 30px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 1.5); 
+    border-radius: 1%;
+    overflow: hidden;
+    z-index: 1;
+    text-align: center;
+    /* margin-top: 50px; */
+ } 
+
+.continue-button{
+    position: absolute;
+    right: 0;
+    margin-top: 150px;
+    margin-right: 141px;
+    font-size: 18px;
+    color: beige;
+    opacity: 0.7;
+    cursor: pointer;
+} 
+
+.continue-button:hover{
+    color: #003da6;
+    font-weight: bold;
+}
+
+.continue-button:active{
+    color:chartreuse;
+}
+
+.back-button{
+    /* margin-top: 120px;  */
+    position: absolute;
+    bottom:0;
+    left:0;
+    margin-bottom: 65px;
+    margin-left: 100px;
+    z-index: 5;
+    font-size: 17px;
+    color: black;
+    opacity: 0.7;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.back-button:hover{
+    color: blue;
+    font-weight: bold;
+}
+
+.back-button:active{
+    color:chartreuse;
+}
+
+.info {
+    height: 385px;
+    border-top-left-radius: 28%;
+    bottom: 0;
+    background-color: rgb(39, 20, 30);
+    z-index: 5;
+    position: absolute;
+    width: 100%;
+    padding-top: 7px;
+    text-align: left;
+    transition: transform 0.5s ease-in-out;
+}
+
+.header-text{
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 210px;
+    color: beige;
+}
+
+.input-container {
+    position: relative;
+    width: 750px; 
+    /* margin: 20px; */
+    margin-left: 95px;
+}
+
+.inp1{
+    display: inline-block;
+    margin-right: 55px;
+    margin-top: 25px;
+}
+
+.inp2{
+    /* display: inline-block;
+    text-align: left; */
+    margin-top: 50px;
+    background-color: rgb(39, 20, 30);
+}
+
+.custom-input {
+    width: 260px;
+    height: 20px;
+    /* border: none; */
+    /* border-bottom: 2px solid #000000; */
+    border-radius: 8px;
+    background: beige;
+    padding: 5px;
+    font-size: 16px;
+    /* color: #333; */
+    /* outline: none;  */
+    /* transition: font-weight 0.3s;  */
+}
+
+.custom-input2{
+    width: 260px;
+    height: 20px;
+    padding: 5px;
+    border-radius: 8px; 
+    margin-left: 10px;
+    background: beige
+
+}
+
+.forgot-pass{
+    font-size: 15px;
+    margin-left: 174px;
+    margin-top: -15px;
+}
+
+.forgot-pass a{
+    color: rgb(200, 200, 180);
+
+}
+
+.forgot-pass a:hover{
+    color: #003da6;
+}
+
+.clear{
+    width: 118px;
+    height: 32px;
+    font-size: 15px;
+    border-radius: 8px;
+    position: absolute;
+    margin-top: 325px;
+    margin-left: 160px;
+    z-index: 5;
+    background-color: rgb(39, 20, 30);
+    cursor: pointer;
+    color: beige;
+}
+
+.clear:hover{
+    background-color: #0056b3;
+}
+
+.clear:active {
+    background-color: #003da6;
+}
+
+.signUp{
+    width: 118px;
+    height: 32px;
+    font-size: 15px;
+    border-radius: 8px;
+    position: absolute;
+    margin-top: 325px;
+    margin-left: 300px;
+    z-index: 5;
+    background-color: rgb(39, 20, 30);
+    cursor: pointer;
+    color: beige;
+}
+
+.signUp-div{
+    margin-right: 200px;
+}
+
+.signUp:hover{
+    background-color: #0056b3;
+}
+
+.signUp:active {
+    background-color: #003da6;
+}
+
+.login{
+    height: 40px;
+    width:240px;
+    border-radius: 18px;
+    background-color: rgb(39, 20, 30);
+    text-align: center;
+    font-size: 22px;
+    padding-top: 13px;
+    margin-top: 510px;
+    position: absolute;
+    z-index: 0;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 1); 
+    cursor: pointer;
+    margin-left: 1.9px;
+    color: beige;
+}
+
+.login-button{
+    width: 200px;
+    height: 40px;
+    font-size: 15px;
+    border-radius: 8px;
+    background-color: beige;
+    margin-top: 50px;
+    border: none;
+    cursor:pointer;
+}
+
+.login-button:hover{
+    background-color: #003da6;
+}
+
+.login-button:active{
+    background-color: #0056b3;
+}
+
+.cont{
+    transition: transform 0.5s ease-in-out;
+    background-color: beige;
+    color: black;
+    height: 100%;
+    width: 100%;
+    top:0;
+    position: absolute;
+    /* text-align: center; */
+    /* font-size: 35px; */
+    /* padding-top: 30px; */
+    /* box-shadow: 0px 0px 20px rgba(0, 0, 0, 1.5);  */
+    border-radius: 1%;
+    overflow: hidden;
+    z-index: 2;
+}
