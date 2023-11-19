@@ -20,5 +20,5 @@
             </div>
             </form>
         </div>
-        <div id="login" class="login"><a href="../index.php">Sign In</a></div>
+        <div id="login" class="login"><a href="../index.php">Sign Up</a></div>
 

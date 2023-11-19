@@ -1,11 +1,8 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-
     $user=new stdClass();
-    
     $user->uname = isset($_POST["user-email"]) ? $_POST["user-email"] : "";
     $user->pass = isset($_POST["password"]) ? $_POST["password"] : "";
-
     $jsonData = file_get_contents('data.json');
     $users = json_decode($jsonData, true);
 

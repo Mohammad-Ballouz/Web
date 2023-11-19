@@ -30,7 +30,7 @@
                         <input type="radio" name="sex" id="other" value="o">
                         <label for="other">Other</label><br>
                         <label for="d">Date of birth</label><br>
-                        <input type="date" id="DOB" name="d" style="background-color: beige;" required><br>
+                        <input type="date" id="DOB" name="d" style="background-color: beige;" ><br>
                         <input type="checkbox" id="check" name="priv" required>
                         <label>I agree to the <a href="">Privacy Policy</a></label>
                     </div>

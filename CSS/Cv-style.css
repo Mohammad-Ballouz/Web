@@ -149,17 +149,6 @@ a{
     top: 0;
 }
 
-#welcome-text,
-        #logout-text {
-            display: inline-block; /* Display as inline block to appear next to each other */
-            margin-right: 20px; /* Adjust the margin as needed */
-            color: white; /* Set text color */
-        }
-
-        #logout-text {
-            margin-right: 0; /* No margin on the right for the last element */
-        }
-
 #dropdown-menu{
     cursor: pointer;
     display: inline-block;
